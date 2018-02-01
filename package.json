@@ -1,0 +1,17 @@
+{
+  "name": "SwagBox",
+  "version": "3.0.0",
+  "author": "Hyeon Jin Park  <hyenoj315@yahoo.com>",
+  "description": "SwagBox",
+  "scripts": {
+    "build": "clear; webpack -p --config ./config/webpack.config.js",
+    "dev": "clear; webpack --config ./config/webpack.dev.config.js && NODE_ENV=development nodemon server.js",
+    "start": "clear; NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.16.2"
+  }
+}
