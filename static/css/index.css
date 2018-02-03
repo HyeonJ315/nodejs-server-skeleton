@@ -1,0 +1,143 @@
+﻿/****** General Styles *********/
+
+body
+{
+    touch-action: manipulation;
+}
+
+a 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.hide_this
+{
+    display: none;
+}
+
+.resize64px
+{
+    width: 64px;
+    height: 64px;
+}
+.resize128px
+{
+    width: 128px;
+    height: 128px;
+}
+/****** Header Style *********/
+/**/
+.navbar-default
+{
+    background: linear-gradient( #54b4eb, #2fa4e7 60%, #1d9ce5 );
+    border: 1px solid #178acc !important;
+    margin-bottom: 20px;
+}
+.navbar-default .navbar-collapse 
+{
+    border-top: 1px solid #178acc !important;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover 
+{
+    color: white;
+    background-color: #178acc;
+}
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover 
+{
+    color: white;
+    background-color: #178acc;
+}
+
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover
+{
+    color: white;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover 
+{
+    background-color: #178acc
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+/* navigation bar logo */
+.navbar-default .navbar-header #logo:link,
+.navbar-default .navbar-header #logo:visited,
+.navbar-default .navbar-header #logo:hover,
+.navbar-default .navbar-header #logo:active 
+{
+     color: black;
+}
+.navbar-nav>.open>a
+.navbar-nav>.open>a:focus
+.navbar-nav>.open>a:hover 
+{
+    color: white;
+    background-color: #178acc;
+}
+
+.navbar-default .navbar-header #logo 
+{
+    margin : 0 !important;
+    padding: 0 !important;
+    padding-right: 15px;
+    width : auto;
+    display: flex;
+    align-items: center;
+}
+.navbar-default .navbar-header #logo-image
+{
+    margin : 0 auto;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.navbar-default .navbar-header #logo-text 
+{
+    margin : 0 auto;
+    padding: 0;
+    padding-right: 15px;
+    width : auto;
+    height: auto;
+    display: inline-block;
+    font-size: 18px;
+}
+
+/* navigation bar logo */
+
+
+
+/* navigation bar options list */
+
+
+/****** Content Style *********/
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+    margin-top: 14px;
+}
+
+.btn-success 
+{
+    background: linear-gradient(#88c149, #73a839 60%, #699934);
+    border: 1px solid #59822c;
+}
+
+#uploadInfo {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/****** Footer Style *********/

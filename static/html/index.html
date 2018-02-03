@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css"/>
+
+    <!-- JQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--Bootstrap Library -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-notify@3.1.3/bootstrap-notify.min.js"></script>
+
+    <!-- Axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.1/axios.min.js"></script>
+
+    <!-- Client sided Javascript --> 
+    <script src="../js/Constants/Constants.js"></script>
+    <script src="../js/Conversions/base64.js"></script>
+    <script src="../js/FileScripts/Upload/UploadListenerBROWSER.js"></script>
+</head>
+<body>
+
+<nav class="navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NAVBAR">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="logo" href="#" style="text-decoration: none">
+                <img id="logo-image" src="images/boxicon.png" alt=""/><!--
+                --><h5 id="logo-text">SwagBox</h5>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="NAVBAR">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Facebook<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Page 1-1</a></li>
+                        <li><a href="#">Page 1-2</a></li>
+                        <li><a href="#">Page 1-3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="jumbotron">
+        
+        <div class="row" id="singleUploader"> <!-- and multi :) -->
+            <h1>
+                <img class="resize128px" src="images/filemainicon.png">SwagBox <small>Temporary File Storage</small>
+            </h1>
+            <div class="col-sm-4 col-md-3">
+                <label class="btn btn-success btn-lg btn-block btn-file">
+                    <i class="glyphicon glyphicon-plus"></i>
+                    <span>Select file</span>
+                        <input id="fileupload" type="file" name="fileupload" style="display: none;">
+                </label>
+            </div>
+            <div class="col-sm-8 col-md-9">
+                <div id="uploadInfo">Just select file or <i>Drag and Drop</i> any file here</div>
+                <div class="visible-xs h24"></div>
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+
+<div id="landingInfoRow" class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h2><img class="resize64px" src="images/fileuploadicon.png"> 200 MB </h2>
+            <p class="clearfix"></p>
+            <p>Upload large files for free. You can swag any extension and use SwagBox every day without limits.</p>
+        </div>
+        <div class="col-sm-4">
+            <h2><img class="resize64px" src="images/fileshareicon.png"> Share Files</h2>
+            <p class="clearfix"></p>
+            <p>Share on Social or send them by email, check status of downloads and delete manually your file.</p>
+        </div>
+        <div class="col-sm-4">
+            <h2><img class="resize64px" src="images/filedeleteicon.png"> Autodelete</h2>
+            <p class="clearfix"></p>
+            <p>Do not worry, your files will be automatically deleted after <strong>2 days</strong>, it will no longer be downloaded.</p>
+        </div>
+    </div>
+
+    <hr><br><br>
+    <div style="text-align: center;" >
+        <h6>Be careful, your IP and other data will be immediately swagged to court authorities if any kind of child pornography is uploaded.</h6>
+    </div>
+</div>
+
+</body>
+
+</html>
+
